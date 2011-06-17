@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Jonas Nicklas", "Trevor Turk"]
   s.email       = ["jonas.nicklas@gmail.com"]
   s.homepage    = "https://github.com/jnicklas/carrierwave-datamapper"
-  s.summary     = %q{Datamapper support for CarrierWave}
-  s.description = %q{Datamapper support for CarrierWave}
+  s.summary     = %q{DataMapper support for CarrierWave}
+  s.description = %q{DataMapper support for CarrierWave}
 
   s.rubyforge_project = "carrierwave-datamapper"
 
