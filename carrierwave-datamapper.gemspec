@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   dm_version_peg = ["~> 1.1.1"]
-  s.add_dependency "dm-core", dm_version_peg
+  # s.add_dependency "dm-core", dm_version_peg
   s.add_dependency "carrierwave"
   s.add_development_dependency "rspec", ["~> 2.0"]
   s.add_development_dependency "dm-validations",    dm_version_peg
