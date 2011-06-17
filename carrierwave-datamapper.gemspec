@@ -19,10 +19,11 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency "dm-core", ["~> 1.0"]
+  dm_version_peg = ["~> 1.1"]
+  s.add_dependency "dm-core", dm_version_peg
   s.add_dependency "carrierwave"
   s.add_development_dependency "rspec", ["~> 2.0"]
-  s.add_development_dependency "dm-validations", ["~> 1.0"]
-  s.add_development_dependency "dm-migrations", ["~> 1.0"]
-  s.add_development_dependency "dm-sqlite-adapter", ["~> 1.0"]
+  s.add_development_dependency "dm-validations",    dm_version_peg
+  s.add_development_dependency "dm-migrations",     dm_version_peg
+  s.add_development_dependency "dm-sqlite-adapter", dm_version_peg
 end
